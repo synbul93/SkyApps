@@ -1,0 +1,24 @@
+{
+  "name": "kodebyraaet/prince",
+  "description": "Simple prince wrapper for Prince library",
+  "version": "0.0.7",
+  "authors": [
+    {
+      "name": "Anthoni Giskegjerde",
+      "email": "anthoni@kodebyraaet.no"
+    },
+    {
+      "name": "Jon Myrstad",
+      "email": "jon@kodebyraaet.no"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "illuminate/support": ">=4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kodebyraaet\\Prince\\": "src/Kodebyraaet/Prince"
+    }
+  }
+}
